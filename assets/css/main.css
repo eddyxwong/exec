@@ -218,7 +218,7 @@ a:hover {
 
 strong,
 b {
-  color: #3a76f8;
+  color: black;
   font-weight: 600;
 }
 
@@ -272,6 +272,8 @@ h4 {
   font-size: 1em;
   line-height: 1.5em;
   margin: 0 0 0.5em 0;
+  font-weight: bolder;
+  color: #6e9cff;
 }
 
 h5 {
@@ -3339,4 +3341,8 @@ body.is-touch .poptrox-popup .closer {
   color: white !important;
   background-color: #6e9cff;
   border: 3px solid #6e9cff;
+}
+
+#csesoc {
+  color: #3a76f8;
 }
