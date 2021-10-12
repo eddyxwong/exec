@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: #414141;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -218,8 +218,8 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
-  font-weight: 400;
+  color: #3a76f8;
+  font-weight: 600;
 }
 
 em,
@@ -237,7 +237,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #2d2d2d;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -269,8 +269,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5em;
+  margin: 0 0 0.5em 0;
 }
 
 h5 {
@@ -3323,3 +3324,6 @@ body.is-touch .poptrox-popup .closer {
   }
 }
 
+.minor-header {
+  font-weight: bolder;
+}
